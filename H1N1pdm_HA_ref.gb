@@ -1,0 +1,101 @@
+LOCUS       CY266191                1734 bp    cRNA    linear   VRL 18-JAN-2018
+DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) hemagglutinin (HA)
+            gene, complete cds.
+ACCESSION   CY266191
+VERSION     CY266191.1
+DBLINK      BioProject: PRJNA37813, PRJNA183620
+KEYWORDS    .
+SOURCE      Influenza A virus (A/California/07/2009(H1N1))
+  ORGANISM  Influenza A virus (A/California/07/2009(H1N1))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 1734)
+  AUTHORS   Tan,G., Pickett,B., Fedorova,N., Amedeo,P., Isom,R., Hu,L.,
+            Christensen,J., Miller,J., Durbin,A., Arumemi,F., Williams,T.,
+            Bao,Y., Sanders,R., Zhdanov,S., Kiryutin,B., Lipman,D.J.,
+            Tatusova,T., Hatcher,E. and Wang,J.
+  TITLE     The NIAID Influenza Genome Sequencing Project
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1734)
+  CONSRTM   The NIAID Influenza Genome Sequencing Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JAN-2018) on behalf of JCVI/University of
+            Arizona/NCBI, National Center for Biotechnology Information, NIH,
+            Bethesda, MD 20894, USA
+COMMENT     This work was supported by the National Institute of Allergy and
+            Infectious Diseases (NIAID), Genome Sequencing Centers for
+            Infectious Diseases (GSCID) program.
+FEATURES             Location/Qualifiers
+     source          1..1734
+                     /organism="Influenza A virus (A/California/07/2009(H1N1))"
+                     /mol_type="viral cRNA"
+                     /strain="A/California/07/2009"
+                     /serotype="H1N1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:641809"
+                     /segment="4"
+                     /country="USA"
+                     /collection_date="09-Apr-2009"
+                     /note="wild-type virus"
+     misc_feature    1..1734
+                     /db_xref="IRD:NIGSP_JW_00020.HA"
+     gene            14..1714
+                     /gene="HA"
+     CDS             14..1714
+                     /gene="HA"
+                     /function="receptor binding and fusion protein"
+                     /codon_start=1
+                     /product="hemagglutinin"
+                     /protein_id="AUR34081.1"
+                     /translation="MKAILVVLLYTFATANADTLCIGYHANNSTDTVDTVLEKNVTVT
+                     HSVNLLEDKHNGKLCKLRGVAPLHLGKCNIAGWILGNPECESLSTASSWSYIVETPSS
+                     DNGTCYPGDFIDYEELREQLSSVSSFERFEIFPKTSSWPNHDSNKGVTAACPHAGAKS
+                     FYKNLIWLVKEGNSYPKLSKSYINDKGKEVLVLWGIHHPSTSADQQSLYQNADAYVFV
+                     GSSRYSKKFKPEIAIRPKVRGQEGRMNYYWTLVEPGDKITFEATGNLVVPRYAFAMER
+                     NAGSGIIISDTPVHDCNTTCQTPKGAINTSLPFQNIHPITIGKCPKYVKSTKLRLATG
+                     LRNIPSIQSRGLFGAIAGFIEGGWTGMVDGWYGYHHQNEQGSGYAADLKSTQNAIDEI
+                     TNKVNSVIEKMNTQFTAVGKEFNHLEKRIENLNKKVDDGFLDIWTYNAELLVLLENER
+                     TLDYHDSNVKNLYEKVRSQLKNNAKEIGNGCFEFYHKCDNTCMESVKNGTYDYPKYSE
+                     EAKLNREEIDGVKLESTRIYQILAIYSTVASSLVLVVSLGAISFWMCSNGSLQCRICI
+                     "
+     sig_peptide     14..64
+                     /gene="HA"
+     mat_peptide     65..1045
+                     /gene="HA"
+                     /product="HA1"
+     mat_peptide     1046..1711
+                     /gene="HA"
+                     /product="HA2"
+ORIGIN      
+        1 aaaagcaaca aaaatgaagg caatactagt agttctgcta tatacatttg caaccgcaaa
+       61 tgcagacaca ttatgtatag gttatcatgc gaacaattca acagacactg tagacacagt
+      121 actagaaaag aatgtaacag taacacactc tgttaacctt ctagaagaca agcataacgg
+      181 gaaactatgc aaactaagag gggtagcccc attgcatttg ggtaaatgta acattgctgg
+      241 ctggatcctg ggaaatccag agtgtgaatc actctccaca gcaagctcat ggtcctacat
+      301 tgtggaaaca cctagttcag acaatggaac gtgttaccca ggagatttca tcgattatga
+      361 ggagctaaga gagcaattga gctcagtgtc atcatttgaa aggtttgaga tattccccaa
+      421 gacaagttca tggcccaatc atgactcgaa caaaggtgta acggcagcat gtcctcatgc
+      481 tggagcaaaa agcttctaca aaaatttaat atggctagtt aaagaaggaa attcataccc
+      541 aaagctcagc aaatcctaca ttaatgataa agggaaagaa gtcctcgtgc tatggggcat
+      601 tcaccatcca tctactagtg ctgaccaaca aagtctctat cagaatgcag atgcatatgt
+      661 ttttgtgggg tcatcaagat acagcaagaa gttcaagccg gaaatagcaa taagacccaa
+      721 agtgaggggt caagaaggga gaatgaacta ttactggaca ctagtagagc cgggagacaa
+      781 aataacattc gaagcaactg gaaatctagt ggtaccgaga tatgcattcg caatggaaag
+      841 aaatgctgga tctggtatta tcatttcaga tacaccagtc cacgattgca atacaacttg
+      901 tcaaacaccc aagggtgcta taaacaccag cctcccattt cagaatatac atccgatcac
+      961 aattggaaaa tgtccaaaat atgtaaaaag cacaaaattg agactggcca caggattgag
+     1021 gaatatcccg tctattcaat ctagaggcct atttggggcc attgccggtt tcattgaagg
+     1081 ggggtggaca gggatggtag atggatggta cggttatcac catcaaaatg agcaggggtc
+     1141 aggatatgca gccgacctga agagcacaca gaatgccatt gacgagatta ctaacaaagt
+     1201 aaattctgtt attgaaaaga tgaatacaca gttcacagca gtaggtaaag agttcaacca
+     1261 cctggaaaaa agaatagaga atttaaataa aaaagttgat gatggtttcc tggacatttg
+     1321 gacttacaat gccgaactgt tggttctatt ggaaaatgaa agaactttgg actaccacga
+     1381 ttcaaatgtg aagaacttat atgaaaaggt aagaagccag ctaaaaaaca atgccaagga
+     1441 aattggaaac ggctgctttg aattttacca caaatgcgat aacacgtgca tggaaagtgt
+     1501 caaaaatggg acttatgact acccaaaata ctcagaggaa gcaaaattaa acagagaaga
+     1561 aatagatggg gtaaagctgg aatcaacaag gatttaccag attttggcga tctattcaac
+     1621 tgtcgccagt tcattggtac tggtagtctc cctgggggca atcagtttct ggatgtgctc
+     1681 taatgggtct ctacagtgta gaatatgtat ttaacattag gatttcagaa gcat
+//
+
